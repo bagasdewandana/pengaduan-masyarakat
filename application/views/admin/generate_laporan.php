@@ -9,8 +9,8 @@
 			<thead class="thead-dark">
 				<tr>
 					<th scope="col">No</th>
-					<th scope="col">Nama</th>
-					<th scope="col">Nik</th>
+					<th scope="col">Divisi</th>
+					<th scope="col">NO Divisi</th>
 					<th scope="col">Laporan</th>
 					<th scope="col">Tgl P</th>
 					<th scope="col">Status</th>

@@ -23,10 +23,10 @@
 
                 <?= form_open('Auth/RegisterController', 'class="user"') ?>
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-user" id="nik" placeholder="nik" name="nik" value="<?= set_value('nik') ?>">
+                  <input type="text" class="form-control form-control-user" id="nik" placeholder="No Divisi" name="nik" value="<?= set_value('nik') ?>">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-user" id="nama" placeholder="Nama" name="nama" value="<?= set_value('nama') ?>">
+                  <input type="text" class="form-control form-control-user" id="nama" placeholder="Divisi" name="nama" value="<?= set_value('nama') ?>">
                 </div>
                 <div class="form-group">
                   <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Username" value="<?= set_value('username') ?>">  
