@@ -1,5 +1,7 @@
-<div class="header">
-  <h2 style="background-color: #01579b; padding: 2%; color: white;">Login</h2>
+<div class="head">
+  <div class="topbar">
+    <h3 style="background-color: #01579b; padding: 1.5%; color: white;">Login</h3>
+  </div>
 </div>
 <div class="container">
 
@@ -39,7 +41,7 @@
                 <div class="text-center">
                   <a class="small" href="<?= base_url('Auth/RegisterController') ?>">Register?</a>
                 </div>
-                <div class="text-center" style="padding-top: 8%;">
+                <div class="text-center" style="padding-top: 5%;">
                   <img src="\pengaduan-masyarakat\assets\backend\img\kominfo.png" alt="kominfo" style="width:105px; height: 80px;">
                   <img src="\pengaduan-masyarakat\assets\backend\img\logo2.png" alt="lamongan" style="width:60px; height: 70px;">
                   <img src="\pengaduan-masyarakat\assets\backend\img\logo3.png" alt="megilan" style="width:165px; height: 50px; padding-left: 5%;">
