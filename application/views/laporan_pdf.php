@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Laporan Pengaduan Masyarakat</title>
+  <title>Laporan Kendala Mesin Absensi</title>
 
   <!-- Custom fonts for this template-->
   <link href="<?= base_url() ?>assets/backend/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -38,14 +38,14 @@
   <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h4 text-dark">Laporan Pengaduan Masyarakat</h1>
+    <h1 class="h4 text-dark">Laporan Kendala Mesin Absensi</h1>
 
     <table class="table">
       <thead class="thead-dark">
         <tr>
           <th scope="col">No</th>
-          <th scope="col">Nama</th>
-          <th scope="col">Nik</th>
+          <th scope="col">Divisi</th>
+          <th scope="col">No Divisi</th>
           <th scope="col">Laporan</th>
           <th scope="col">Tgl P</th>
           <th scope="col">Status</th>
@@ -63,7 +63,7 @@
             <td><?= $l['isi_laporan'] ?></td>
             <td><?= $l['tgl_pengaduan'] ?></td>
             <td>
-              <?
+              <?php
               if ($l['status'] == '0') :
                 echo '<span class="badge badge-secondary">Sedang di verifikasi</span>';
               elseif ($l['status'] == 'proses') :

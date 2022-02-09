@@ -18,7 +18,7 @@
               <div class="p-5">
                 <div class="text-center">
                   <img src="\pengaduan-masyarakat\assets\backend\img\logo1.png" alt="sipansi" style="width:150px; height: 150px;">
-                  <h1 class="h4 text-gray-900 mb-4" style="padding-top: 8%;">Selamat Datang di Aplikasi Pelaporan Absensi Rusak</h1>
+                  <h1 class="h4 text-gray-900 mb-4" style="padding-top: 8%;">Selamat Datang di Aplikasi Pelaporan Kendala Mesin Absensi</h1>
                   
                   
                 </div>

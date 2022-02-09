@@ -36,7 +36,7 @@ class LaporanController extends CI_Controller {
     $this->load->library('pdf');
 
     $this->pdf->setPaper('A4', 'potrait'); // opsional | default A4
-    $this->pdf->filename = "laporan-pengaduan.pdf"; // opsional | default is laporan.pdf
+    $this->pdf->filename = "laporan-alatabsen.pdf"; // opsional | default is laporan.pdf
     $this->pdf->load_view('laporan_pdf', $data);
 	}
 }
